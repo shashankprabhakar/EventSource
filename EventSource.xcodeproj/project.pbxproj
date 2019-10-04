@@ -15,7 +15,6 @@
 		D6AE4ACE2344E48F003C670B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6AE4ACD2344E48F003C670B /* Assets.xcassets */; };
 		D6AE4AD12344E48F003C670B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6AE4ACF2344E48F003C670B /* LaunchScreen.storyboard */; };
 		D6AE4ADC2344E92F003C670B /* LoginStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6AE4ADB2344E92F003C670B /* LoginStoryBoard.storyboard */; };
-		D6AE4ADE23466860003C670B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6AE4ADD23466860003C670B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		D6AE4AD02344E48F003C670B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6AE4AD22344E48F003C670B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6AE4ADB2344E92F003C670B /* LoginStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryBoard.storyboard; sourceTree = "<group>"; };
-		D6AE4ADD23466860003C670B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +89,6 @@
 				D6AE4ACA2344E48B003C670B /* Main.storyboard */,
 				D6AE4ACD2344E48F003C670B /* Assets.xcassets */,
 				D6AE4ACF2344E48F003C670B /* LaunchScreen.storyboard */,
-				D6AE4ADD23466860003C670B /* GoogleService-Info.plist */,
 				D6AE4AD22344E48F003C670B /* Info.plist */,
 			);
 			path = EventSource;
@@ -183,7 +180,6 @@
 			files = (
 				D6AE4AD12344E48F003C670B /* LaunchScreen.storyboard in Resources */,
 				D6AE4ACE2344E48F003C670B /* Assets.xcassets in Resources */,
-				D6AE4ADE23466860003C670B /* GoogleService-Info.plist in Resources */,
 				D6AE4ACC2344E48B003C670B /* Main.storyboard in Resources */,
 				D6AE4ADC2344E92F003C670B /* LoginStoryBoard.storyboard in Resources */,
 			);
