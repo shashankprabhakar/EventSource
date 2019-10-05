@@ -109,10 +109,10 @@
             </objects>
             <point key="canvasLocation" x="1078.125" y="111.97183098591549"/>
         </scene>
-        <!--View Controller-->
+        <!--RegisterVC-->
         <scene sceneID="JIT-YG-d2Q">
             <objects>
-                <viewController id="XVd-ZA-Z2S" sceneMemberID="viewController">
+                <viewController id="XVd-ZA-Z2S" customClass="RegisterVC" customModule="EventSource" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jGu-7a-K5M">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -168,6 +168,9 @@
                                         <state key="normal" title="Register">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="registerClicked:" destination="XVd-ZA-Z2S" eventType="touchUpInside" id="b1p-Hv-8lt"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -205,6 +208,13 @@
                         <viewLayoutGuide key="safeArea" id="Syb-7r-Iu6"/>
                     </view>
                     <navigationItem key="navigationItem" id="Xnt-e4-2Ag"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="wzV-y5-Hxj" id="PNi-AW-9y7"/>
+                        <outlet property="confirmPasswordTxt" destination="A8a-V6-aCY" id="hJy-9p-gd5"/>
+                        <outlet property="emailTxt" destination="bQS-u2-KZA" id="FHR-xu-QEg"/>
+                        <outlet property="passwordTxt" destination="ujt-zH-hBk" id="6XA-wk-CPj"/>
+                        <outlet property="usernameTxt" destination="OwJ-U9-Foi" id="ewQ-lN-n36"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QII-I4-VDs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
