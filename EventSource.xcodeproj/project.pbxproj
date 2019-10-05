@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		285C1356F133937A2F9230F5 /* Pods_EventSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE26EEFFEDD3937BAEF956B8 /* Pods_EventSource.framework */; };
+		D6473B6A2349106B009107BE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6473B692349106B009107BE /* GoogleService-Info.plist */; };
+		D6473B6C234910DE009107BE /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6473B6B234910DE009107BE /* LoginVC.swift */; };
+		D6473B6E234910F6009107BE /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6473B6D234910F6009107BE /* RegisterVC.swift */; };
 		D6AE4AC52344E48B003C670B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE4AC42344E48B003C670B /* AppDelegate.swift */; };
 		D6AE4AC72344E48B003C670B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE4AC62344E48B003C670B /* SceneDelegate.swift */; };
 		D6AE4AC92344E48B003C670B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE4AC82344E48B003C670B /* ViewController.swift */; };
@@ -21,6 +24,9 @@
 		0F3A72DF6136666A011CB68E /* Pods-EventSource.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventSource.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventSource/Pods-EventSource.release.xcconfig"; sourceTree = "<group>"; };
 		563CDDB493024F2AB7858317 /* Pods-EventSource.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventSource.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EventSource/Pods-EventSource.debug.xcconfig"; sourceTree = "<group>"; };
 		CE26EEFFEDD3937BAEF956B8 /* Pods_EventSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6473B692349106B009107BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D6473B6B234910DE009107BE /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		D6473B6D234910F6009107BE /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		D6AE4AC12344E48B003C670B /* EventSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventSource.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6AE4AC42344E48B003C670B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6AE4AC62344E48B003C670B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +95,7 @@
 				D6AE4ACA2344E48B003C670B /* Main.storyboard */,
 				D6AE4ACD2344E48F003C670B /* Assets.xcassets */,
 				D6AE4ACF2344E48F003C670B /* LaunchScreen.storyboard */,
+				D6473B692349106B009107BE /* GoogleService-Info.plist */,
 				D6AE4AD22344E48F003C670B /* Info.plist */,
 			);
 			path = EventSource;
@@ -114,6 +121,8 @@
 				D6AE4AC42344E48B003C670B /* AppDelegate.swift */,
 				D6AE4AC82344E48B003C670B /* ViewController.swift */,
 				D6AE4AC62344E48B003C670B /* SceneDelegate.swift */,
+				D6473B6B234910DE009107BE /* LoginVC.swift */,
+				D6473B6D234910F6009107BE /* RegisterVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -180,6 +189,7 @@
 			files = (
 				D6AE4AD12344E48F003C670B /* LaunchScreen.storyboard in Resources */,
 				D6AE4ACE2344E48F003C670B /* Assets.xcassets in Resources */,
+				D6473B6A2349106B009107BE /* GoogleService-Info.plist in Resources */,
 				D6AE4ACC2344E48B003C670B /* Main.storyboard in Resources */,
 				D6AE4ADC2344E92F003C670B /* LoginStoryBoard.storyboard in Resources */,
 			);
@@ -257,7 +267,9 @@
 			files = (
 				D6AE4AC92344E48B003C670B /* ViewController.swift in Sources */,
 				D6AE4AC52344E48B003C670B /* AppDelegate.swift in Sources */,
+				D6473B6C234910DE009107BE /* LoginVC.swift in Sources */,
 				D6AE4AC72344E48B003C670B /* SceneDelegate.swift in Sources */,
+				D6473B6E234910F6009107BE /* RegisterVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
