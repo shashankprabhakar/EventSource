@@ -210,8 +210,10 @@
                     <navigationItem key="navigationItem" id="Xnt-e4-2Ag"/>
                     <connections>
                         <outlet property="activityIndicator" destination="wzV-y5-Hxj" id="PNi-AW-9y7"/>
+                        <outlet property="confirmPassCheckImg" destination="r9e-vy-VZi" id="mGU-S5-D4c"/>
                         <outlet property="confirmPasswordTxt" destination="A8a-V6-aCY" id="hJy-9p-gd5"/>
                         <outlet property="emailTxt" destination="bQS-u2-KZA" id="FHR-xu-QEg"/>
+                        <outlet property="passCheckImg" destination="iLV-bI-qvh" id="x56-Ow-Sbv"/>
                         <outlet property="passwordTxt" destination="ujt-zH-hBk" id="6XA-wk-CPj"/>
                         <outlet property="usernameTxt" destination="OwJ-U9-Foi" id="ewQ-lN-n36"/>
                     </connections>
