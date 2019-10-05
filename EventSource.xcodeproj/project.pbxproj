@@ -8,8 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		285C1356F133937A2F9230F5 /* Pods_EventSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE26EEFFEDD3937BAEF956B8 /* Pods_EventSource.framework */; };
+<<<<<<< Updated upstream
+=======
+		D6473B6A2349106B009107BE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6473B692349106B009107BE /* GoogleService-Info.plist */; };
+		D6473B6C234910DE009107BE /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6473B6B234910DE009107BE /* LoginVC.swift */; };
+		D6473B6E234910F6009107BE /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6473B6D234910F6009107BE /* RegisterVC.swift */; };
+		D6473B7123491BCE009107BE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6473B7023491BCE009107BE /* Extensions.swift */; };
+>>>>>>> Stashed changes
 		D6AE4AC52344E48B003C670B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE4AC42344E48B003C670B /* AppDelegate.swift */; };
-		D6AE4AC72344E48B003C670B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE4AC62344E48B003C670B /* SceneDelegate.swift */; };
 		D6AE4AC92344E48B003C670B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE4AC82344E48B003C670B /* ViewController.swift */; };
 		D6AE4ACC2344E48B003C670B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6AE4ACA2344E48B003C670B /* Main.storyboard */; };
 		D6AE4ACE2344E48F003C670B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6AE4ACD2344E48F003C670B /* Assets.xcassets */; };
@@ -21,9 +27,15 @@
 		0F3A72DF6136666A011CB68E /* Pods-EventSource.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventSource.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventSource/Pods-EventSource.release.xcconfig"; sourceTree = "<group>"; };
 		563CDDB493024F2AB7858317 /* Pods-EventSource.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventSource.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EventSource/Pods-EventSource.debug.xcconfig"; sourceTree = "<group>"; };
 		CE26EEFFEDD3937BAEF956B8 /* Pods_EventSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+<<<<<<< Updated upstream
+=======
+		D6473B692349106B009107BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D6473B6B234910DE009107BE /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		D6473B6D234910F6009107BE /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		D6473B7023491BCE009107BE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		D6AE4AC12344E48B003C670B /* EventSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventSource.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6AE4AC42344E48B003C670B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D6AE4AC62344E48B003C670B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D6AE4AC82344E48B003C670B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D6AE4ACB2344E48B003C670B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6AE4ACD2344E48F003C670B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,6 +73,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D6473B6F23491BB4009107BE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D6473B7023491BCE009107BE /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		D6AE4AB82344E48B003C670B = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +102,7 @@
 		D6AE4AC32344E48B003C670B /* EventSource */ = {
 			isa = PBXGroup;
 			children = (
+				D6473B6F23491BB4009107BE /* Utils */,
 				D6AE4AD82344E8C6003C670B /* Model */,
 				D6AE4AD92344E8CF003C670B /* View */,
 				D6AE4ADA2344E8D4003C670B /* Controller */,
@@ -113,7 +134,12 @@
 			children = (
 				D6AE4AC42344E48B003C670B /* AppDelegate.swift */,
 				D6AE4AC82344E48B003C670B /* ViewController.swift */,
+<<<<<<< Updated upstream
 				D6AE4AC62344E48B003C670B /* SceneDelegate.swift */,
+=======
+				D6473B6B234910DE009107BE /* LoginVC.swift */,
+				D6473B6D234910F6009107BE /* RegisterVC.swift */,
+>>>>>>> Stashed changes
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -255,9 +281,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6473B7123491BCE009107BE /* Extensions.swift in Sources */,
 				D6AE4AC92344E48B003C670B /* ViewController.swift in Sources */,
 				D6AE4AC52344E48B003C670B /* AppDelegate.swift in Sources */,
+<<<<<<< Updated upstream
 				D6AE4AC72344E48B003C670B /* SceneDelegate.swift in Sources */,
+=======
+				D6473B6C234910DE009107BE /* LoginVC.swift in Sources */,
+				D6473B6E234910F6009107BE /* RegisterVC.swift in Sources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5B4J2A9M4W;
 				INFOPLIST_FILE = EventSource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -424,6 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5B4J2A9M4W;
 				INFOPLIST_FILE = EventSource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

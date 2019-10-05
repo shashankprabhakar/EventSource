@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -205,6 +206,18 @@
                         <viewLayoutGuide key="safeArea" id="Syb-7r-Iu6"/>
                     </view>
                     <navigationItem key="navigationItem" id="Xnt-e4-2Ag"/>
+<<<<<<< Updated upstream
+=======
+                    <connections>
+                        <outlet property="activityIndicator" destination="wzV-y5-Hxj" id="PNi-AW-9y7"/>
+                        <outlet property="confirmPassCheckImg" destination="r9e-vy-VZi" id="f8R-o3-meK"/>
+                        <outlet property="confirmPasswordTxt" destination="A8a-V6-aCY" id="hJy-9p-gd5"/>
+                        <outlet property="emailTxt" destination="bQS-u2-KZA" id="FHR-xu-QEg"/>
+                        <outlet property="passCheckImg" destination="iLV-bI-qvh" id="Clr-gO-MQr"/>
+                        <outlet property="passwordTxt" destination="ujt-zH-hBk" id="6XA-wk-CPj"/>
+                        <outlet property="usernameTxt" destination="OwJ-U9-Foi" id="ewQ-lN-n36"/>
+                    </connections>
+>>>>>>> Stashed changes
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QII-I4-VDs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
