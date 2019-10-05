@@ -14,6 +14,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    override func viewDidAppear(_ animated: Bool) {
+        let storyboard = UIStoryboard(name: "LoginStoryBoard", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "loginVC")
+        present(controller, animated: true, completion: nil)
+    }
 
 
 }
