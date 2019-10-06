@@ -12,8 +12,8 @@
 		D6473B6C234910DE009107BE /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6473B6B234910DE009107BE /* LoginVC.swift */; };
 		D6473B6E234910F6009107BE /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6473B6D234910F6009107BE /* RegisterVC.swift */; };
 		D6473B7423493872009107BE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6473B7323493872009107BE /* Extensions.swift */; };
+		D6473B76234A7C2B009107BE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6473B75234A7C2B009107BE /* Constants.swift */; };
 		D6AE4AC52344E48B003C670B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE4AC42344E48B003C670B /* AppDelegate.swift */; };
-		D6AE4AC72344E48B003C670B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE4AC62344E48B003C670B /* SceneDelegate.swift */; };
 		D6AE4AC92344E48B003C670B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE4AC82344E48B003C670B /* ViewController.swift */; };
 		D6AE4ACC2344E48B003C670B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6AE4ACA2344E48B003C670B /* Main.storyboard */; };
 		D6AE4ACE2344E48F003C670B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6AE4ACD2344E48F003C670B /* Assets.xcassets */; };
@@ -29,9 +29,9 @@
 		D6473B6B234910DE009107BE /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D6473B6D234910F6009107BE /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		D6473B7323493872009107BE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D6473B75234A7C2B009107BE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D6AE4AC12344E48B003C670B /* EventSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventSource.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6AE4AC42344E48B003C670B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D6AE4AC62344E48B003C670B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D6AE4AC82344E48B003C670B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D6AE4ACB2344E48B003C670B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6AE4ACD2344E48F003C670B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				D6473B7323493872009107BE /* Extensions.swift */,
+				D6473B75234A7C2B009107BE /* Constants.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -131,7 +132,6 @@
 			children = (
 				D6AE4AC42344E48B003C670B /* AppDelegate.swift */,
 				D6AE4AC82344E48B003C670B /* ViewController.swift */,
-				D6AE4AC62344E48B003C670B /* SceneDelegate.swift */,
 				D6473B6B234910DE009107BE /* LoginVC.swift */,
 				D6473B6D234910F6009107BE /* RegisterVC.swift */,
 			);
@@ -280,8 +280,8 @@
 				D6473B7423493872009107BE /* Extensions.swift in Sources */,
 				D6AE4AC52344E48B003C670B /* AppDelegate.swift in Sources */,
 				D6473B6C234910DE009107BE /* LoginVC.swift in Sources */,
-				D6AE4AC72344E48B003C670B /* SceneDelegate.swift in Sources */,
 				D6473B6E234910F6009107BE /* RegisterVC.swift in Sources */,
+				D6473B76234A7C2B009107BE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +429,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5B4J2A9M4W;
 				INFOPLIST_FILE = EventSource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5B4J2A9M4W;
 				INFOPLIST_FILE = EventSource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
