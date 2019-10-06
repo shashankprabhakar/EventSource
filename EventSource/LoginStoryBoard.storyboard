@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -41,7 +42,7 @@
                                             <constraint firstAttribute="height" constant="40" id="mOT-pl-8Q1"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oLJ-v7-ea2">
                                         <rect key="frame" x="0.0" y="210.5" width="280" height="31"/>
@@ -49,6 +50,9 @@
                                         <state key="normal" title="Forgot Password">
                                             <color key="titleColor" red="0.83529411764705885" green="0.39215686274509803" blue="0.31372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="forgotPasswordClicked:" destination="BMN-Bt-h1E" eventType="touchUpInside" id="XUf-ib-vJ4"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Aw-Lp-7St" customClass="RoundedButton" customModule="EventSource" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="255.5" width="280" height="40"/>
@@ -60,6 +64,9 @@
                                         <state key="normal" title=" Log In">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="loginClicked:" destination="BMN-Bt-h1E" eventType="touchUpInside" id="iRW-yq-Bgb"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Of-Tv-MV6" customClass="RoundedButton" customModule="EventSource" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="309.5" width="280" height="40"/>
@@ -85,6 +92,9 @@
                                         <state key="normal" title="Continue as guest">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="guestClicked:" destination="BMN-Bt-h1E" eventType="touchUpInside" id="nlr-hn-4fE"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -104,6 +114,11 @@
                         <viewLayoutGuide key="safeArea" id="qsF-Z6-C9q"/>
                     </view>
                     <navigationItem key="navigationItem" id="QiA-CS-TfT"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="pDT-c8-Evi" id="OMm-m4-x1E"/>
+                        <outlet property="emailTxt" destination="55m-hF-QtH" id="IrC-oP-yGF"/>
+                        <outlet property="passwordTxt" destination="y7Y-Bl-ZMe" id="gF7-Qp-D3e"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mcb-Q5-pAO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
