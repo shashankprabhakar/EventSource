@@ -1,0 +1,84 @@
+ { 
+    "db": {
+        "categories": [
+            { "id": "cat-1", "name": "Music", "description": "Hear some new artists" },
+            { "id": "cat-2", "name": "Films", "description": "Letys wach some good stuff" },
+            { "id": "cat-3", "name": "Sports", "description": "Lets start Moving" },
+            { "id": "cat-4", "name": "Fitness", "description": "Lets get moving" },
+            { "id": "cat-5", "name": "Bussines", "description": "Time to get work done" },
+            { "id": "cat-6", "name": "Art", "description": "Its so buetifull" },
+            { "id": "cat-7", "name": "Food", "description": "Let's eat" }
+        ],
+        "toprated": [
+            { "id": "evt-356", "name": "IPA Beer Tasting", "location": "Phill Grrimes Pub", "category": "cat-7" },
+            { "id": "evt-2231", "name": "Swimming Maraton 5x5", "location": "Woslwagen Arena", "category": "cat-3" },
+            { "id": "evt-32", "name": "Open Mic Night", "location": "Phill Grrimes Pub", "category": "cat-7" },
+            { "id": "evt-1995", "name": "Dajinsi Ratmi", "location": "Livent Area", "category": "cat-2" }
+        ],
+        "staffpicked": [
+            { "id": "evt-331", "name": "Danjsi Ratmi", "location": "Three Arina", "category": "cat-6" },
+            { "id": "evt-667", "name": "The Thea Band", "location": "Apple Play Store", "category": "cat-1" },
+            { "id": "evt-1553", "name": "DJ Silver", "location": "Phill Grrimes Pub", "category": "cat-1" },
+            { "id": "evt-1553", "name": "Drake @ IE", "location": "Revelution", "category": "cat-1" }
+        ],
+        "events": [
+            { "id": "evt-356", "name": "IPA Beer Tasting", "location": "Phill Grrimes Pub", "category": "cat-7" },
+            { "id": "evt-2231", "name": "Swimming Maraton 5x5", "location": "Woslwagen Arena", "category": "cat-3" },
+            { "id": "evt-32", "name": "Open Mic Night", "location": "Phill Grrimes Pub", "category": "cat-7" },
+            { "id": "evt-1995", "name": "Dajinsi Ratmi", "location": "Livent Area", "category": "cat-2" },
+            { "id": "evt-331", "name": "Danjsi Ratmi", "location": "Three Arina", "category": "cat-6" },
+            { "id": "evt-667", "name": "The Thea Band", "location": "Apple Play Store", "category": "cat-1" },
+            { "id": "evt-1553", "name": "DJ Silver", "location": "Phill Grrimes Pub", "category": "cat-1" },
+            { "id": "evt-1553", "name": "Drake @ IE", "location": "Revelution", "category": "cat-1" },
+            { "id": "evt-2356", "name": "THE FOOD", "location": "DOrk Locations", "category": "cat-3" },
+            { "id": "evt-32231", "name": "SNest Works", "location": "Fillpill PUB", "category": "cat-3" },
+            { "id": "evt-332", "name": "Lil Weinbe", "location": "Three Arina", "category": "cat-7" },
+            { "id": "evt-21995", "name": "DJ cezar", "location": "@HGOME", "category": "cat-2" },
+            { "id": "evt-2331", "name": "Shashing in The HOOD", "location": "Blockvust", "category": "cat-6" },
+            { "id": "evt-3667", "name": "DJ Tiesto", "location": "Xtravision", "category": "cat-4" },
+            { "id": "evt-31553", "name": "Find a fried", "location": "Sinots", "category": "cat-2" },
+            { "id": "evt-31553", "name": "Fuck Bitches get money", "location": "Waterfgord", "category": "cat-5" }
+        ],
+        "profile": {
+            "fname": "Shashing",
+            "lname": "DaMAN",
+            "location": "Dublin",
+            "picture": "http://google.com/logo.png",
+            "description": "I travel a lot but a party even more",
+            "events": ["evt-32231", "evt-3667"]
+        },
+        "eventDetails": [
+            { 
+                "id": "evt-32", 
+                "name": "Open Mic Night", 
+                "location": "Phill Grrimes Pub", 
+                "category": "cat-7",
+                "description": "Lets get rocking on this epic open night pub where bitches are swiging from tree and we wrapping to some sick beets",
+                "locationGEO": "49.07776,67.60295",
+                "locationDesc": "Waterford BIGIUP Pub",
+                "price": "free",
+                "source": "facebook/com/abc",
+                "images": [
+                    "http://google.com/logo.png",
+                    "http://google.com/logo.png",
+                    "http://google.com/logo.png"
+                ]
+            },
+            { 
+                "id": "1553", 
+                "name": "Dajinsi Ratmi", 
+                "location": "Livent Area", 
+                "category": "cat-5",
+                "description": "Lets get rocking on this epic open night pub where bitches are swiging from tree and we wrapping to some sick beets",
+                "locationGEO": "49.07776,67.60295",
+                "locationDesc": "Dublin Stadiu,",
+                "price": "25.50",
+                "source": "twitter/com/abc",
+                "images": [
+                    "http://google.com/logo.png",
+                    "http://google.com/logo.png",
+                ]
+            }
+        ]
+    }
+}

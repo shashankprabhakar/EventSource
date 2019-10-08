@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		285C1356F133937A2F9230F5 /* Pods_EventSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE26EEFFEDD3937BAEF956B8 /* Pods_EventSource.framework */; };
+		D63735E7234C9B64001D45F9 /* db.json in Resources */ = {isa = PBXBuildFile; fileRef = D63735E6234C9B64001D45F9 /* db.json */; };
+		D63735EB234CA065001D45F9 /* EventsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63735E9234CA065001D45F9 /* EventsTableViewCell.swift */; };
+		D63735EC234CA065001D45F9 /* EventsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D63735EA234CA065001D45F9 /* EventsTableViewCell.xib */; };
 		D6473B6A2349106B009107BE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6473B692349106B009107BE /* GoogleService-Info.plist */; };
 		D6473B6C234910DE009107BE /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6473B6B234910DE009107BE /* LoginVC.swift */; };
 		D6473B6E234910F6009107BE /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6473B6D234910F6009107BE /* RegisterVC.swift */; };
@@ -26,6 +29,9 @@
 		0F3A72DF6136666A011CB68E /* Pods-EventSource.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventSource.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventSource/Pods-EventSource.release.xcconfig"; sourceTree = "<group>"; };
 		563CDDB493024F2AB7858317 /* Pods-EventSource.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventSource.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EventSource/Pods-EventSource.debug.xcconfig"; sourceTree = "<group>"; };
 		CE26EEFFEDD3937BAEF956B8 /* Pods_EventSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63735E6234C9B64001D45F9 /* db.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = db.json; sourceTree = "<group>"; };
+		D63735E9234CA065001D45F9 /* EventsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewCell.swift; sourceTree = "<group>"; };
+		D63735EA234CA065001D45F9 /* EventsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventsTableViewCell.xib; sourceTree = "<group>"; };
 		D6473B692349106B009107BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D6473B6B234910DE009107BE /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D6473B6D234910F6009107BE /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
@@ -71,6 +77,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D63735E8234C9F2F001D45F9 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				D63735E9234CA065001D45F9 /* EventsTableViewCell.swift */,
+				D63735EA234CA065001D45F9 /* EventsTableViewCell.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
 		D6473B7223491E21009107BE /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +116,7 @@
 		D6AE4AC32344E48B003C670B /* EventSource */ = {
 			isa = PBXGroup;
 			children = (
+				D63735E8234C9F2F001D45F9 /* XIBs */,
 				D6473B7223491E21009107BE /* Utils */,
 				D6AE4AD82344E8C6003C670B /* Model */,
 				D6AE4AD92344E8CF003C670B /* View */,
@@ -110,6 +126,7 @@
 				D6AE4ACD2344E48F003C670B /* Assets.xcassets */,
 				D6AE4ACF2344E48F003C670B /* LaunchScreen.storyboard */,
 				D6473B692349106B009107BE /* GoogleService-Info.plist */,
+				D63735E6234C9B64001D45F9 /* db.json */,
 				D6AE4AD22344E48F003C670B /* Info.plist */,
 			);
 			path = EventSource;
@@ -203,7 +220,9 @@
 			files = (
 				D6AE4AD12344E48F003C670B /* LaunchScreen.storyboard in Resources */,
 				D6AE4ACE2344E48F003C670B /* Assets.xcassets in Resources */,
+				D63735EC234CA065001D45F9 /* EventsTableViewCell.xib in Resources */,
 				D6473B6A2349106B009107BE /* GoogleService-Info.plist in Resources */,
+				D63735E7234C9B64001D45F9 /* db.json in Resources */,
 				D6AE4ACC2344E48B003C670B /* Main.storyboard in Resources */,
 				D6AE4ADC2344E92F003C670B /* LoginStoryBoard.storyboard in Resources */,
 			);
@@ -283,6 +302,7 @@
 				D6473B7423493872009107BE /* Extensions.swift in Sources */,
 				D6AE4AC52344E48B003C670B /* AppDelegate.swift in Sources */,
 				D6473B6C234910DE009107BE /* LoginVC.swift in Sources */,
+				D63735EB234CA065001D45F9 /* EventsTableViewCell.swift in Sources */,
 				D6473B78234A8A0F009107BE /* RoundedViews.swift in Sources */,
 				D6473B6E234910F6009107BE /* RegisterVC.swift in Sources */,
 				D6473B76234A7C2B009107BE /* Constants.swift in Sources */,
