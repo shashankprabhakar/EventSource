@@ -121,6 +121,7 @@ PODS:
   - nanopb/encode (0.3.901)
   - Protobuf (3.8.0)
   - Stripe (15.0.1)
+  - SwiftyJSON (4.3.0)
 
 DEPENDENCIES:
   - Alamofire
@@ -133,6 +134,7 @@ DEPENDENCIES:
   - IQKeyboardManagerSwift (= 6.3.0)
   - Kingfisher (~> 4.0)
   - Stripe
+  - SwiftyJSON (~> 4.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -159,6 +161,7 @@ SPEC REPOS:
     - nanopb
     - Protobuf
     - Stripe
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
@@ -184,7 +187,8 @@ SPEC CHECKSUMS:
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   Protobuf: 3f617b9a6e73605565086864c9bc26b2bf2dd5a3
   Stripe: 2c4d0a88817361a102886315ff452d90f65e898b
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: 46d43115197492da81b502e92526af73bb80f6b0
+PODFILE CHECKSUM: c7c7a6b2cc531307ae74d51d592f249219faba04
 
 COCOAPODS: 1.5.2

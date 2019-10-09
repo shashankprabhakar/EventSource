@@ -23,5 +23,6 @@ target 'EventSource' do
   shared_pods
   pod 'Stripe'
   pod 'Alamofire'
+  pod 'SwiftyJSON', '~> 4.0'
   
 end

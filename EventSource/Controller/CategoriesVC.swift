@@ -1,5 +1,5 @@
 //
-//  EventsVC.swift
+//  CategoriesViewController.swift
 //  EventSource
 //
 //  Created by Shashank Prabhakar on 09/10/2019.
@@ -8,18 +8,12 @@
 
 import UIKit
 
-class EventsVC: UINavigationController {
+class CategoriesVC: UIViewController {
 
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    
-         
-    
     }
     
 

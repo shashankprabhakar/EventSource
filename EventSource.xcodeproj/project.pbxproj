@@ -8,9 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		285C1356F133937A2F9230F5 /* Pods_EventSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE26EEFFEDD3937BAEF956B8 /* Pods_EventSource.framework */; };
+		D6345D6D234DAD2100917903 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6345D6C234DAD2100917903 /* CategoriesVC.swift */; };
+		D6345D6F234DAD7400917903 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6345D6E234DAD7400917903 /* SearchVC.swift */; };
+		D6345D72234DBA0800917903 /* EventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6345D71234DBA0800917903 /* EventsVC.swift */; };
 		D63735F0234CA9A1001D45F9 /* JSONHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63735EF234CA9A1001D45F9 /* JSONHandler.swift */; };
-		D63735F4234CC542001D45F9 /* EventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63735F3234CC542001D45F9 /* EventsVC.swift */; };
 		D63735F6234CD84C001D45F9 /* dbjson.txt in Resources */ = {isa = PBXBuildFile; fileRef = D63735F5234CD84C001D45F9 /* dbjson.txt */; };
+		D63735F8234CD9BD001D45F9 /* Categories .swift in Sources */ = {isa = PBXBuildFile; fileRef = D63735F7234CD9BD001D45F9 /* Categories .swift */; };
+		D63735FA234CDE42001D45F9 /* EventDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63735F9234CDE42001D45F9 /* EventDetails.swift */; };
+		D63735FD234CE491001D45F9 /* CategoriesJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63735FC234CE491001D45F9 /* CategoriesJSON.swift */; };
 		D6473B6A2349106B009107BE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6473B692349106B009107BE /* GoogleService-Info.plist */; };
 		D6473B6C234910DE009107BE /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6473B6B234910DE009107BE /* LoginVC.swift */; };
 		D6473B6E234910F6009107BE /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6473B6D234910F6009107BE /* RegisterVC.swift */; };
@@ -29,9 +34,14 @@
 		0F3A72DF6136666A011CB68E /* Pods-EventSource.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventSource.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventSource/Pods-EventSource.release.xcconfig"; sourceTree = "<group>"; };
 		563CDDB493024F2AB7858317 /* Pods-EventSource.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventSource.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EventSource/Pods-EventSource.debug.xcconfig"; sourceTree = "<group>"; };
 		CE26EEFFEDD3937BAEF956B8 /* Pods_EventSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6345D6C234DAD2100917903 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
+		D6345D6E234DAD7400917903 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		D6345D71234DBA0800917903 /* EventsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsVC.swift; sourceTree = "<group>"; };
 		D63735EF234CA9A1001D45F9 /* JSONHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONHandler.swift; sourceTree = "<group>"; };
-		D63735F3234CC542001D45F9 /* EventsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsVC.swift; sourceTree = "<group>"; };
 		D63735F5234CD84C001D45F9 /* dbjson.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dbjson.txt; sourceTree = "<group>"; };
+		D63735F7234CD9BD001D45F9 /* Categories .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories .swift"; sourceTree = "<group>"; };
+		D63735F9234CDE42001D45F9 /* EventDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetails.swift; sourceTree = "<group>"; };
+		D63735FC234CE491001D45F9 /* CategoriesJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesJSON.swift; sourceTree = "<group>"; };
 		D6473B692349106B009107BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D6473B6B234910DE009107BE /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D6473B6D234910F6009107BE /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
@@ -93,6 +103,14 @@
 			path = Database;
 			sourceTree = "<group>";
 		};
+		D63735FB234CE47B001D45F9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D63735FC234CE491001D45F9 /* CategoriesJSON.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		D6473B7223491E21009107BE /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +141,7 @@
 		D6AE4AC32344E48B003C670B /* EventSource */ = {
 			isa = PBXGroup;
 			children = (
+				D63735FB234CE47B001D45F9 /* Services */,
 				D63735EE234CA975001D45F9 /* Database */,
 				D63735E8234C9F2F001D45F9 /* XIBs */,
 				D6473B7223491E21009107BE /* Utils */,
@@ -142,6 +161,8 @@
 		D6AE4AD82344E8C6003C670B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D63735F7234CD9BD001D45F9 /* Categories .swift */,
+				D63735F9234CDE42001D45F9 /* EventDetails.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -161,7 +182,9 @@
 				D6AE4AC82344E48B003C670B /* HomeVC.swift */,
 				D6473B6B234910DE009107BE /* LoginVC.swift */,
 				D6473B6D234910F6009107BE /* RegisterVC.swift */,
-				D63735F3234CC542001D45F9 /* EventsVC.swift */,
+				D6345D6C234DAD2100917903 /* CategoriesVC.swift */,
+				D6345D6E234DAD7400917903 /* SearchVC.swift */,
+				D6345D71234DBA0800917903 /* EventsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -254,6 +277,7 @@
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
@@ -270,6 +294,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
@@ -310,10 +335,15 @@
 				D6473B7423493872009107BE /* Extensions.swift in Sources */,
 				D6AE4AC52344E48B003C670B /* AppDelegate.swift in Sources */,
 				D6473B6C234910DE009107BE /* LoginVC.swift in Sources */,
-				D63735F4234CC542001D45F9 /* EventsVC.swift in Sources */,
+				D6345D6F234DAD7400917903 /* SearchVC.swift in Sources */,
+				D63735F8234CD9BD001D45F9 /* Categories .swift in Sources */,
+				D63735FD234CE491001D45F9 /* CategoriesJSON.swift in Sources */,
+				D63735FA234CDE42001D45F9 /* EventDetails.swift in Sources */,
 				D6473B78234A8A0F009107BE /* RoundedViews.swift in Sources */,
 				D6473B6E234910F6009107BE /* RegisterVC.swift in Sources */,
 				D6473B76234A7C2B009107BE /* Constants.swift in Sources */,
+				D6345D6D234DAD2100917903 /* CategoriesVC.swift in Sources */,
+				D6345D72234DBA0800917903 /* EventsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
