@@ -9,11 +9,11 @@
 import Foundation
 
 
-struct Categories: Codable {
+struct Categories {
     var description : String
-    var id : String
-    var name : String
+    var title : String
+    var location: String
     
-
+    
 }
 

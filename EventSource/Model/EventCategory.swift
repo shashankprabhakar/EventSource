@@ -7,12 +7,15 @@
 //
 
 import Foundation
+import SwiftyJSON
 
-struct Event: Codable {
+struct EventCategory {
     
-        var id: String
-        var name: String
-        var location: String
-        var category: String
-    
+        var title: String
+        var imageName: String
 }
+
+
+
+
+
