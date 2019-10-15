@@ -11,10 +11,7 @@ import SwiftyJSON
 
 class CategoriesJSON {
     
-//    private func parseCategory(json: JSON) ->  {
-//        let name = json[]
-//    }
-    
+
     
     
 }

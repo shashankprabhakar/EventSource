@@ -13,27 +13,28 @@ class HomeVC: UIViewController {
     
     //Outlets
     
+
     
-    @IBOutlet weak var logOutButton: UIBarButtonItem!
+    
+
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let json = JSONHandler.readJSONFromFile(fileName: "dbjson")
-        print(json ?? "not happening")
+        
     }
     
     
     override func viewDidAppear(_ animated: Bool) {
         
-        if let _ = Auth.auth().currentUser {
-         
-            //we are logged in
-            logOutButton.title = "Logout"
-        }   else {
-            logOutButton.title = "Login"
-        }
+//        if let _ = Auth.auth().currentUser {
+//         
+//            //we are logged in
+//            logOutButton.title = "Logout"
+//        }   else {
+//            logOutButton.title = "Login"
+//        }
     }
     
     fileprivate func presentLoginController() {
@@ -43,25 +44,22 @@ class HomeVC: UIViewController {
     }
 
 
-    @IBAction func loginOutClicked(_ sender: Any) {
-        
-        if let _ = Auth.auth().currentUser {
-            //we are logged in
-            do{
-                try Auth.auth().signOut()
-                presentLoginController()
-            } catch {
-                debugPrint(error.localizedDescription)
-            }
-        } else {
-            presentLoginController()
-        }
+//    @IBAction func loginOutClicked(_ sender: Any) {
+//        
+//        if let _ = Auth.auth().currentUser {
+//            //we are logged in
+//            do{
+//                try Auth.auth().signOut()
+//                presentLoginController()
+//            } catch {
+//                debugPrint(error.localizedDescription)
+//            }
+//        } else {
+//            presentLoginController()
+//        }
         
         
     }
-    
-    
-    
-    
-}
+
+
 

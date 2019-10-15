@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //change the color of the tab bar items
         
-        UITabBar.appearance().tintColor = .black
+       
         
         
         return true

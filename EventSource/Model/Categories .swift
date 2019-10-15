@@ -9,17 +9,11 @@
 import Foundation
 
 
-struct Categories {
+struct Categories: Codable {
     var description : String
     var id : String
     var name : String
     
-//    init(json: JSON) {
-//        guard let desciption = json["desciption"] as? String ,
-//        let id = json["id"] as? String ,
-//        let name = json["name"] as? String
-//        else { return }
-//        
-//    }
+
 }
 
