@@ -12,6 +12,9 @@
 		D606D0A523563EE7005C5E4E /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D606D0A423563EE7005C5E4E /* HomeViewCell.swift */; };
 		D606D0A723565DA2005C5E4E /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D606D0A623565DA2005C5E4E /* DataSet.swift */; };
 		D606D0A92356740A005C5E4E /* HomeTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D606D0A82356740A005C5E4E /* HomeTableVC.swift */; };
+		D606D0AB2357A6F4005C5E4E /* EventSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D606D0AA2357A6F4005C5E4E /* EventSelectionVC.swift */; };
+		D606D0AD2357B598005C5E4E /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D606D0AC2357B598005C5E4E /* EventCell.swift */; };
+		D606D0AF2357E452005C5E4E /* EventsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D606D0AE2357E452005C5E4E /* EventsDetailVC.swift */; };
 		D63735F6234CD84C001D45F9 /* dbjson.txt in Resources */ = {isa = PBXBuildFile; fileRef = D63735F5234CD84C001D45F9 /* dbjson.txt */; };
 		D63735F8234CD9BD001D45F9 /* Categories .swift in Sources */ = {isa = PBXBuildFile; fileRef = D63735F7234CD9BD001D45F9 /* Categories .swift */; };
 		D63735FD234CE491001D45F9 /* CategoriesJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63735FC234CE491001D45F9 /* CategoriesJSON.swift */; };
@@ -37,6 +40,9 @@
 		D606D0A423563EE7005C5E4E /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
 		D606D0A623565DA2005C5E4E /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
 		D606D0A82356740A005C5E4E /* HomeTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableVC.swift; sourceTree = "<group>"; };
+		D606D0AA2357A6F4005C5E4E /* EventSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSelectionVC.swift; sourceTree = "<group>"; };
+		D606D0AC2357B598005C5E4E /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		D606D0AE2357E452005C5E4E /* EventsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsDetailVC.swift; sourceTree = "<group>"; };
 		D63735F5234CD84C001D45F9 /* dbjson.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dbjson.txt; sourceTree = "<group>"; };
 		D63735F7234CD9BD001D45F9 /* Categories .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories .swift"; sourceTree = "<group>"; };
 		D63735FC234CE491001D45F9 /* CategoriesJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesJSON.swift; sourceTree = "<group>"; };
@@ -170,6 +176,7 @@
 			children = (
 				D6473B77234A8A0F009107BE /* RoundedViews.swift */,
 				D606D0A423563EE7005C5E4E /* HomeViewCell.swift */,
+				D606D0AC2357B598005C5E4E /* EventCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,6 +189,8 @@
 				D6473B6B234910DE009107BE /* LoginVC.swift */,
 				D6473B6D234910F6009107BE /* RegisterVC.swift */,
 				D606D0A82356740A005C5E4E /* HomeTableVC.swift */,
+				D606D0AA2357A6F4005C5E4E /* EventSelectionVC.swift */,
+				D606D0AE2357E452005C5E4E /* EventsDetailVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -327,12 +336,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D606D0AF2357E452005C5E4E /* EventsDetailVC.swift in Sources */,
 				D6AE4AC92344E48B003C670B /* HomeVC.swift in Sources */,
 				D6473B7423493872009107BE /* Extensions.swift in Sources */,
+				D606D0AB2357A6F4005C5E4E /* EventSelectionVC.swift in Sources */,
 				D606D0A723565DA2005C5E4E /* DataSet.swift in Sources */,
 				D606D0A92356740A005C5E4E /* HomeTableVC.swift in Sources */,
 				D6AE4AC52344E48B003C670B /* AppDelegate.swift in Sources */,
 				D6473B6C234910DE009107BE /* LoginVC.swift in Sources */,
+				D606D0AD2357B598005C5E4E /* EventCell.swift in Sources */,
 				D63735F8234CD9BD001D45F9 /* Categories .swift in Sources */,
 				D606D0A523563EE7005C5E4E /* HomeViewCell.swift in Sources */,
 				D63735FD234CE491001D45F9 /* CategoriesJSON.swift in Sources */,

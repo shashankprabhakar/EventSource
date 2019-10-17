@@ -13,6 +13,7 @@ struct Categories {
     var description : String
     var title : String
     var location: String
+    var imageName: String
     
     
 }

@@ -13,6 +13,7 @@ class HomeTableVC: UIViewController, UITableViewDelegate, UITableViewDataSource 
     @IBOutlet var tableView: UITableView!
     
     let data = DataSet()
+    var eventToPass: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,6 +39,16 @@ class HomeTableVC: UIViewController, UITableViewDelegate, UITableViewDataSource 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 200
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        eventToPass = data.categories[indexPath.row].title
+        performSegue(withIdentifier: "toEventSelection", sender: self)
+    }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let eventVC = segue.destination as? EventSelectionVC {
+            eventVC.selectedEvent = eventToPass
+        }
+    }
 }
 
