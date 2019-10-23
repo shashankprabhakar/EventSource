@@ -25,7 +25,8 @@ class EventsDetailVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        eventImg.layer.cornerRadius = 10
         eventImg.image = UIImage(named: selectedEvent.imageName)
         eventTitle.text = selectedEvent.title
         eventDescription.text = selectedEvent.description

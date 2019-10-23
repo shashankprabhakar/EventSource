@@ -37,7 +37,7 @@ class HomeVC: UIViewController {
 //        }
     }
     
-    fileprivate func presentLoginController() {
+      func presentLoginController() {
         let storyboard = UIStoryboard(name: Storyboard.LoginStoryboard, bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: StoryboardId.LoginVC)
         present(controller, animated: true, completion: nil)

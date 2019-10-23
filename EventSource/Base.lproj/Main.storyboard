@@ -146,36 +146,36 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="travis" translatesAutoresizingMaskIntoConstraints="NO" id="cJH-u1-QK0">
-                                <rect key="frame" x="0.0" y="44" width="320" height="225"/>
+                                <rect key="frame" x="0.0" y="54" width="320" height="225"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="225" id="UF6-iV-Kwm"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Travis Scott" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uwT-5p-CrW">
-                                <rect key="frame" x="116.5" y="289" width="87" height="21"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <rect key="frame" x="99" y="299" width="122.5" height="21"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="20"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="clip" numberOfLines="8" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4GF-LS-LXA">
-                                <rect key="frame" x="20" y="330" width="280" height="18.5"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4GF-LS-LXA">
+                                <rect key="frame" x="20" y="330" width="280" height="181"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="1Gl-WI-IVM">
-                                <rect key="frame" x="228.5" y="289" width="86.5" height="21"/>
+                                <rect key="frame" x="246.5" y="299" width="63.5" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="ufi-p3-mex"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Futura-MediumItalic" family="Futura" pointSize="11"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="OFg-f9-xZh" firstAttribute="trailing" secondItem="1Gl-WI-IVM" secondAttribute="trailing" constant="5" id="1SN-Hp-cPv"/>
+                            <constraint firstItem="OFg-f9-xZh" firstAttribute="trailing" secondItem="1Gl-WI-IVM" secondAttribute="trailing" constant="10" id="1SN-Hp-cPv"/>
                             <constraint firstItem="OFg-f9-xZh" firstAttribute="trailing" secondItem="4GF-LS-LXA" secondAttribute="trailing" constant="20" id="209-Wz-30s"/>
                             <constraint firstItem="uwT-5p-CrW" firstAttribute="centerX" secondItem="Tg2-p4-wjK" secondAttribute="centerX" id="ECa-aS-qL4"/>
                             <constraint firstItem="OFg-f9-xZh" firstAttribute="trailing" secondItem="cJH-u1-QK0" secondAttribute="trailing" id="FEr-vZ-B8r"/>
@@ -183,10 +183,11 @@
                             <constraint firstItem="4GF-LS-LXA" firstAttribute="leading" secondItem="OFg-f9-xZh" secondAttribute="leading" constant="20" id="HHm-sr-uA2"/>
                             <constraint firstItem="cJH-u1-QK0" firstAttribute="leading" secondItem="OFg-f9-xZh" secondAttribute="leading" id="eGS-Gf-t5c"/>
                             <constraint firstItem="1Gl-WI-IVM" firstAttribute="top" secondItem="uwT-5p-CrW" secondAttribute="top" id="iCA-W8-449"/>
-                            <constraint firstItem="4GF-LS-LXA" firstAttribute="top" secondItem="uwT-5p-CrW" secondAttribute="bottom" constant="20" id="rRi-hx-tWq"/>
+                            <constraint firstItem="OFg-f9-xZh" firstAttribute="bottom" secondItem="4GF-LS-LXA" secondAttribute="bottom" constant="8" id="mTc-G7-UQs"/>
+                            <constraint firstItem="4GF-LS-LXA" firstAttribute="top" secondItem="uwT-5p-CrW" secondAttribute="bottom" constant="10" id="rRi-hx-tWq"/>
                             <constraint firstItem="uwT-5p-CrW" firstAttribute="top" secondItem="cJH-u1-QK0" secondAttribute="bottom" constant="20" id="uM2-6g-ATT"/>
                             <constraint firstItem="1Gl-WI-IVM" firstAttribute="leading" secondItem="uwT-5p-CrW" secondAttribute="trailing" constant="25" id="wDt-WB-B1M"/>
-                            <constraint firstItem="cJH-u1-QK0" firstAttribute="top" secondItem="OFg-f9-xZh" secondAttribute="top" id="zfO-ea-P3g"/>
+                            <constraint firstItem="cJH-u1-QK0" firstAttribute="top" secondItem="OFg-f9-xZh" secondAttribute="top" constant="10" id="zfO-ea-P3g"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="OFg-f9-xZh"/>
                     </view>
@@ -233,16 +234,121 @@
                     </tabBar>
                     <connections>
                         <segue destination="ApB-y3-L39" kind="relationship" relationship="viewControllers" id="SRT-1v-bYB"/>
+                        <segue destination="shs-T2-cah" kind="relationship" relationship="viewControllers" id="fsy-82-AmM"/>
+                        <segue destination="3xi-VF-nS3" kind="relationship" relationship="viewControllers" id="BdS-uH-7zC"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Bc-gf-oIa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-4381.875" y="-428.87323943661971"/>
         </scene>
+        <!--Search EventVC-->
+        <scene sceneID="NUG-cO-t66">
+            <objects>
+                <viewController id="E3H-Q5-uEo" customClass="SearchEventVC" customModule="EventSource" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qjz-Vw-W4n">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="55r-yl-zlJ">
+                                <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <searchBar key="tableHeaderView" contentMode="redraw" placeholder="search for a event near you" id="eTQ-1b-IAX">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </searchBar>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="d70-KF-ufN">
+                                        <rect key="frame" x="0.0" y="84" width="320" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="d70-KF-ufN" id="ujv-Vx-Yku">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="55r-yl-zlJ" firstAttribute="leading" secondItem="U0S-RT-kOm" secondAttribute="leading" id="3JU-Z4-B22"/>
+                            <constraint firstAttribute="bottom" secondItem="55r-yl-zlJ" secondAttribute="bottom" id="ADy-HT-LQK"/>
+                            <constraint firstItem="55r-yl-zlJ" firstAttribute="top" secondItem="U0S-RT-kOm" secondAttribute="top" id="XFY-7J-6dj"/>
+                            <constraint firstItem="55r-yl-zlJ" firstAttribute="trailing" secondItem="U0S-RT-kOm" secondAttribute="trailing" id="rLz-SV-bRI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="U0S-RT-kOm"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zOn-T7-nCs"/>
+                    <connections>
+                        <outlet property="searchBar" destination="eTQ-1b-IAX" id="2s9-CK-ccO"/>
+                        <outlet property="tableView" destination="55r-yl-zlJ" id="3hy-av-Glo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZxT-ys-CHk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2388.75" y="331.6901408450704"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="8Gu-Ht-vax">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="shs-T2-cah" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="XfL-U8-JFX"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OT1-wx-6ip">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="E3H-Q5-uEo" kind="relationship" relationship="rootViewController" id="oqf-qD-s9J"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6cB-SI-yqh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3386.25" y="331.6901408450704"/>
+        </scene>
+        <!--LocationVC-->
+        <scene sceneID="Hky-T6-f77">
+            <objects>
+                <viewController id="Sfr-Qn-Doi" customClass="LocationVC" customModule="EventSource" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZOX-9f-Cgy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Fd6-3i-Wl9"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="H3j-RP-vMf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v51-Nh-Tmz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5229" y="1229"/>
+        </scene>
+        <!--Near Me-->
+        <scene sceneID="s9d-Ta-rbF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3xi-VF-nS3" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Near Me" image="mappin" catalog="system" id="h4H-tj-byu"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Dlj-8T-SvS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Sfr-Qn-Doi" kind="relationship" relationship="rootViewController" id="pAo-Xi-Euw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X0b-yd-iw3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5229.375" y="331.6901408450704"/>
+        </scene>
     </scenes>
     <resources>
         <image name="drake" width="151.5" height="200"/>
         <image name="house" catalog="system" width="64" height="54"/>
+        <image name="magnifyingglass" catalog="system" width="64" height="60"/>
+        <image name="mappin" catalog="system" width="32" height="64"/>
         <image name="music" width="387" height="257.5"/>
         <image name="travis" width="73.5" height="106"/>
     </resources>

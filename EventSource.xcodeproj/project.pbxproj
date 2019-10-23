@@ -18,12 +18,16 @@
 		D63735F6234CD84C001D45F9 /* dbjson.txt in Resources */ = {isa = PBXBuildFile; fileRef = D63735F5234CD84C001D45F9 /* dbjson.txt */; };
 		D63735F8234CD9BD001D45F9 /* Categories .swift in Sources */ = {isa = PBXBuildFile; fileRef = D63735F7234CD9BD001D45F9 /* Categories .swift */; };
 		D63735FD234CE491001D45F9 /* CategoriesJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63735FC234CE491001D45F9 /* CategoriesJSON.swift */; };
+		D63A963F235FD90D002237B0 /* SearchEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A963E235FD90D002237B0 /* SearchEventVC.swift */; };
+		D63A9641235FE1A0002237B0 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A9640235FE19F002237B0 /* LocationVC.swift */; };
 		D6473B6A2349106B009107BE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6473B692349106B009107BE /* GoogleService-Info.plist */; };
 		D6473B6C234910DE009107BE /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6473B6B234910DE009107BE /* LoginVC.swift */; };
 		D6473B6E234910F6009107BE /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6473B6D234910F6009107BE /* RegisterVC.swift */; };
 		D6473B7423493872009107BE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6473B7323493872009107BE /* Extensions.swift */; };
 		D6473B76234A7C2B009107BE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6473B75234A7C2B009107BE /* Constants.swift */; };
 		D6473B78234A8A0F009107BE /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6473B77234A8A0F009107BE /* RoundedViews.swift */; };
+		D6931075235E530300F6B734 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6931073235E530200F6B734 /* ForgotPasswordVC.swift */; };
+		D6931076235E530300F6B734 /* ForgotPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6931074235E530300F6B734 /* ForgotPasswordVC.xib */; };
 		D6AE4AC52344E48B003C670B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE4AC42344E48B003C670B /* AppDelegate.swift */; };
 		D6AE4AC92344E48B003C670B /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE4AC82344E48B003C670B /* HomeVC.swift */; };
 		D6AE4ACC2344E48B003C670B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6AE4ACA2344E48B003C670B /* Main.storyboard */; };
@@ -46,12 +50,16 @@
 		D63735F5234CD84C001D45F9 /* dbjson.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dbjson.txt; sourceTree = "<group>"; };
 		D63735F7234CD9BD001D45F9 /* Categories .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories .swift"; sourceTree = "<group>"; };
 		D63735FC234CE491001D45F9 /* CategoriesJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesJSON.swift; sourceTree = "<group>"; };
+		D63A963E235FD90D002237B0 /* SearchEventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEventVC.swift; sourceTree = "<group>"; };
+		D63A9640235FE19F002237B0 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		D6473B692349106B009107BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D6473B6B234910DE009107BE /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D6473B6D234910F6009107BE /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		D6473B7323493872009107BE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D6473B75234A7C2B009107BE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D6473B77234A8A0F009107BE /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
+		D6931073235E530200F6B734 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		D6931074235E530300F6B734 /* ForgotPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordVC.xib; sourceTree = "<group>"; };
 		D6AE4AC12344E48B003C670B /* EventSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventSource.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6AE4AC42344E48B003C670B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6AE4AC82344E48B003C670B /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -94,6 +102,8 @@
 		D63735E8234C9F2F001D45F9 /* XIBs */ = {
 			isa = PBXGroup;
 			children = (
+				D6931073235E530200F6B734 /* ForgotPasswordVC.swift */,
+				D6931074235E530300F6B734 /* ForgotPasswordVC.xib */,
 			);
 			path = XIBs;
 			sourceTree = "<group>";
@@ -191,6 +201,8 @@
 				D606D0A82356740A005C5E4E /* HomeTableVC.swift */,
 				D606D0AA2357A6F4005C5E4E /* EventSelectionVC.swift */,
 				D606D0AE2357E452005C5E4E /* EventsDetailVC.swift */,
+				D63A963E235FD90D002237B0 /* SearchEventVC.swift */,
+				D63A9640235FE19F002237B0 /* LocationVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -257,6 +269,7 @@
 			files = (
 				D6AE4AD12344E48F003C670B /* LaunchScreen.storyboard in Resources */,
 				D6AE4ACE2344E48F003C670B /* Assets.xcassets in Resources */,
+				D6931076235E530300F6B734 /* ForgotPasswordVC.xib in Resources */,
 				D6473B6A2349106B009107BE /* GoogleService-Info.plist in Resources */,
 				D6AE4ACC2344E48B003C670B /* Main.storyboard in Resources */,
 				D63735F6234CD84C001D45F9 /* dbjson.txt in Resources */,
@@ -342,7 +355,9 @@
 				D606D0AB2357A6F4005C5E4E /* EventSelectionVC.swift in Sources */,
 				D606D0A723565DA2005C5E4E /* DataSet.swift in Sources */,
 				D606D0A92356740A005C5E4E /* HomeTableVC.swift in Sources */,
+				D6931075235E530300F6B734 /* ForgotPasswordVC.swift in Sources */,
 				D6AE4AC52344E48B003C670B /* AppDelegate.swift in Sources */,
+				D63A9641235FE1A0002237B0 /* LocationVC.swift in Sources */,
 				D6473B6C234910DE009107BE /* LoginVC.swift in Sources */,
 				D606D0AD2357B598005C5E4E /* EventCell.swift in Sources */,
 				D63735F8234CD9BD001D45F9 /* Categories .swift in Sources */,
@@ -352,6 +367,7 @@
 				D6473B6E234910F6009107BE /* RegisterVC.swift in Sources */,
 				D6473B76234A7C2B009107BE /* Constants.swift in Sources */,
 				D606D09F23556FD1005C5E4E /* EventCategory.swift in Sources */,
+				D63A963F235FD90D002237B0 /* SearchEventVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
